@@ -19,8 +19,13 @@ gems: [jekyll-paginate]
 # Build settings
 markdown: kramdown
 kramdown:
+  input: GFM
   auto_ids: false
+
+highlighter: rouge
+
 sass:
   sass_dir: _sass
   style: compressed
+
 paginate: 5
