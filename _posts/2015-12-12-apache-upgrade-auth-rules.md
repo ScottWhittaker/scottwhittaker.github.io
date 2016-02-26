@@ -11,7 +11,7 @@ It turns out that the [authorisation](http://httpd.apache.org/docs/trunk/upgradi
 
 ## Before
 
-```apache
+```markup
 Alias /somedir "/Users/username/somedir/"
 <Directory "/Users/username/somedir/">
         Options Indexes MultiViews
@@ -23,7 +23,7 @@ Alias /somedir "/Users/username/somedir/"
 
 ## After
 
-```apache
+```markup
 Alias /somedir "/Users/username/somedir/"
 <Directory "/Users/username/somedir/">
         Options Indexes MultiViews
