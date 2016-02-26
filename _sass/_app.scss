@@ -1,0 +1,160 @@
+$header-letter-spacing: -1px;
+
+// Typography
+// ----------------------------------------------------------------------
+
+h2,
+h3,
+h4,
+h5 {
+    color: lighten($dark-gray, 10);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    letter-spacing: $header-letter-spacing;
+}
+
+
+// layout
+// ----------------------------------------------------------------------
+
+.menu-wrapper {
+    background-color: rgba($dark-gray, .5);
+}
+
+.menu {
+    padding: .5rem 0;
+
+    a {
+        text-decoration: none;
+        color: $white;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    a:hover {
+        color: $primary-color
+    }
+
+}
+
+.site-header {
+    margin-bottom: 3rem;
+    min-height: 460px;
+    background-color: black;
+    background-image: url("../img/header.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    h1,
+    h2 {
+        padding: .5em;
+        color: $white;
+    }
+
+    h2 {
+        margin-top: -.5rem;
+        font-size: rem-calc(18);
+        letter-spacing: normal;
+        font-weight: normal;
+        font-family: Courier New, Courier, monospace;
+    }
+
+    @include breakpoint(small only) {
+        min-height: 100px;
+    }
+}
+
+.site-footer {
+    margin-top: 6rem;
+    padding: 3rem 0;
+}
+
+// posts
+// ----------------------------------------------------------------------
+
+.post-title {
+
+   a {
+       color: inherit;
+   }
+}
+
+.post-meta {
+    margin-top: -.6rem;
+    font-size: smaller;
+    font-style: italic;
+    font-weight: bold;
+    color: $medium-gray;
+}
+
+
+// code
+// ----------------------------------------------------------------------
+
+.lineno {
+    color: darken($light-gray, 20);
+    font-family: "Courier New";
+}
+
+pre,
+code {
+    font-size: 15px;
+    border: 1px solid $light-gray;
+    border-radius: 3px;
+    background-color: #eef;
+    background-color: #eee;
+}
+
+code {
+    padding: 1px 5px;
+}
+
+pre {
+    margin: 1rem 0;
+    padding: 8px 12px;
+    overflow-x: auto;
+
+    > code {
+        border: 0;
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+
+// pagination
+// ----------------------------------------------------------------------
+
+.pagination {
+    margin: 60px 0 20px 0;
+
+    .button {
+        margin: 0;
+    }
+}
+
+
+// figure
+// ----------------------------------------------------------------------
+
+figure {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+// iframe
+// ----------------------------------------------------------------------
+
+iframe {
+    margin: 1rem 0;
+    width: 100%;
+    min-height: 600px;
+    border: 0;
+}
+
+

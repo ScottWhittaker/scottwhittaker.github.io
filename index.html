@@ -1,22 +1,24 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>scottwhittaker.github.io</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body {
-            padding: 32px;
-            font-family: sans-serif;
-            color: #333;
-        }
-    </style>
-</head>
-<body>
-    <h1>scottwhittaker.github.io</h1>
-</body>
-</html>
+---
+layout: default
+---
+
+<!-- This loops through the paginated posts -->
+{% for post in paginator.posts %}
+<h3 class="post-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+<p class="post-meta">{{ post.date | date: '%B %d, %Y' }}</p>
+<p>{{ post.content | strip_html | truncatewords: 25 }}</p>
+{% endfor %}
+
+{% if paginator.total_pages > 1 %}
+<div class="row pagination">
+    <div class="columns small-12 text-center">
+        <a class="button {% if paginator.previous_page %}{% else %}disabled{% endif %}"
+           href="{{ paginator.previous_page_path | prepend: site.baseurl }}">&larr;</a>
+        <a class="button {% if paginator.next_page %}{% else %}disabled{% endif %}"
+           href="{{ paginator.next_page_path | prepend: site.baseurl }}">&rarr;</a>
+    </div>
+</div>
+<div class="row">
+    <div class="columns small-12 text-center">{{ paginator.page }} of {{ paginator.total_pages }}</div>
+</div>
+{% endif %}
