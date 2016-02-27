@@ -22,19 +22,18 @@
 // Foundation and avoid bundling unused css components into the
 // application.
 
-@include foundation-global-styles;
-@include foundation-button;
-@include foundation-button-group;
 @include foundation-grid;
 @include foundation-menu;
-@include foundation-off-canvas;
-@include foundation-typography;
 @include foundation-visibility-classes;
 
 // Additional unused components listed here for convenience.
 // If you require one of these components remove it from
 // this list and add it to the includes above.
 
+// @include foundation-typography;
+@include foundation-global-styles;
+@include foundation-button;
+@include foundation-button-group;
 //@include foundation-forms;
 //@include foundation-float-classes;
 //@include foundation-accordion;
@@ -68,3 +67,4 @@
 // ----------------------------------------------------------------------
 
 @import 'app';
+@import 'syntax-highlighting'
