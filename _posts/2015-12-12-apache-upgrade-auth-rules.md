@@ -12,6 +12,7 @@ It turns out that the [authorisation](http://httpd.apache.org/docs/trunk/upgradi
 ## Before
 
 ```xml
+
 Alias /somedir "/Users/username/somedir/"
 <Directory "/Users/username/somedir/">
         Options Indexes MultiViews
@@ -19,16 +20,19 @@ Alias /somedir "/Users/username/somedir/"
         Order allow,deny
         Allow from all
 </Directory>
+
 ```
 
 ## After
 
 ```xml
+
 Alias /somedir "/Users/username/somedir/"
 <Directory "/Users/username/somedir/">
         Options Indexes MultiViews
         AllowOverride None
         Require all granted
 </Directory>
+
 ```
 
