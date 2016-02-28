@@ -79,8 +79,13 @@ h5 {
 
 .post-title {
 
-   a {
-       color: inherit;
+    a {
+        display: block;
+        color: inherit;
+    }
+
+    a:hover {
+        color: $primary-color;
    }
 }
 
@@ -121,5 +126,3 @@ iframe {
     min-height: 600px;
     border: 0;
 }
-
-
