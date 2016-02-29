@@ -1,4 +1,5 @@
 $header-letter-spacing: -1px;
+$sub-header-height: 50px;
 
 // Typography
 // ----------------------------------------------------------------------
@@ -43,6 +44,7 @@ h5 {
 }
 
 .site-header {
+    position: relative;
     margin-bottom: 3rem;
     min-height: 460px;
     background-color: black;
@@ -67,6 +69,17 @@ h5 {
     @include breakpoint(small only) {
         min-height: 100px;
     }
+}
+
+.sub-header {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: $sub-header-height;
+    line-height: $sub-header-height;
+    font-family: Courier New, Courier, monospace;
+    color: $white;
+    background-color: rgba($black, .3);
 }
 
 .site-footer {
