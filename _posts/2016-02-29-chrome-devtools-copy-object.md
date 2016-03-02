@@ -5,7 +5,7 @@ date:   2016-02-29
 categories: chrome-devtools
 ---
 
-Another one of those extremely useful tips that is easily forgotten if it is not something you do often. Maybe writing it down here will etch it in the brain?
+Another one of those extremely useful [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/) tips that is easily forgotten if it is not something you do often. Maybe writing it down here will etch it in the brain?
 
 - [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/)
 - [Command Line Reference](https://developers.google.com/web/tools/chrome-devtools/debug/command-line/command-line-reference)
