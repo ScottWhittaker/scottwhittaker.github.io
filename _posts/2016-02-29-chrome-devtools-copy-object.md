@@ -40,13 +40,13 @@ Right click on the object in the console and select **Store as Global Variable**
 
 A global variable named `temp1` has been created.
 
-![Step 1](/img/chrome-devtools-copy-step-2.png)
+![Step 2](/img/chrome-devtools-copy-step-2.png)
 
 ### Step 3
 
 Use the `copy` function to copy the object as a string to the clipboard - `copy(temp1)`
 
-![Step 1](/img/chrome-devtools-copy-step-3.png)
+![Step 3](/img/chrome-devtools-copy-step-3.png)
 
 ### Step 4
 
