@@ -12,7 +12,7 @@ email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Things that I cannot remember but may sometimes need.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://scottwhittaker.github.io" # the base hostname & protocol for your site
+url: "http://scottwhittaker.net" # the base hostname & protocol for your site
 
 gems: [jekyll-paginate]
 
