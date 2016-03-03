@@ -46,28 +46,23 @@ h5 {
 .site-header {
     position: relative;
     margin-bottom: 3rem;
-    min-height: 460px;
     background-color: black;
-    background-image: url("../img/header.jpg");
-    background-repeat: no-repeat;
-    background-position: center center;
 
-    h1,
-    h2 {
-        padding: .5em;
-        color: $white;
+    @include breakpoint(medium) {
+        min-height: 460px;
+        background-image: url("../img/header.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
     }
 
-    h2 {
-        margin-top: -.5rem;
-        font-size: rem-calc(18);
-        letter-spacing: normal;
-        font-weight: normal;
-        font-family: Courier New, Courier, monospace;
-    }
+    h1 {
+        font-size: 14em;
+        color: rgba($black, .3);
 
-    @include breakpoint(small only) {
-        min-height: 100px;
+        span {
+            display: inline-block;
+            transform: scaleX(-1);
+        }
     }
 }
 
