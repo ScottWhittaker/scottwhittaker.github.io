@@ -57,7 +57,7 @@ For each of these types we will render the corresponding html template in a list
 
 ### Rendering the Views
 
-We will assume we are rendering our list on a Home page. In [Aurelia][1] you create a `.js` file and a corresponding `.html` file with the same name in order to create a model and a view respectivley.
+We will assume we are rendering our list on a Home page. In [Aurelia][1] you create a `.js` file and a corresponding `.html` file with the same name in order to create a model and a view respectively.
 
 - `home.js` - _the model_
 - `home.html` - _the view_
