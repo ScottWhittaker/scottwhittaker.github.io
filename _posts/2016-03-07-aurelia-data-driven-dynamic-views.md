@@ -15,7 +15,7 @@ Take this example from [BBC iPlayer](http://www.bbc.co.uk/iplayer). It has a lis
 
 ![Example content grid from BBC iPlayer](/img/heterogeneous-grid-iplayer.jpg)
 
-## Building our own list
+## Example
 
 Head over to this [Plunker][5] if you want see the example or dive into the code and mess around.
 
