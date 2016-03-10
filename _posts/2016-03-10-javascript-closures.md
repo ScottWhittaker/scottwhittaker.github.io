@@ -5,7 +5,7 @@ date:   2016-03-10
 categories: javascript
 ---
 
-You can guarantee you will be asked about closures in an interview and if you are anything like me then you know what they are and how to use them (as you use them every day) but you forgot/cannot articulate it back to the interviewer. Here are a few succint definitions to commit to memory...
+You can guarantee you will be asked about closures in an interview and if you are anything like me then you know what they are and how to use them (as you use them every day) but you forgot/cannot articulate it back to the interviewer. Here are a few succinct definitions to commit to memory...
 
 
 > Closures are functions that refer to independent (free) variables. In other words, the function defined in the closure 'remembers' the environment in which it was created.
