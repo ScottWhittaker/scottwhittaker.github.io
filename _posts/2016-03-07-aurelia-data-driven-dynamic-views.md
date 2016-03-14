@@ -65,7 +65,7 @@ We will assume we are rendering our list on a Home page. In [Aurelia][1] you cre
 
 #### Model
 
-In the model we fetch data in the `activate` function and assign it to a variable `data`. The `activate` function is one of the [Screen Activation Lifecycle](http://aurelia.io/docs.html#/aurelia/framework/1.0.0-beta.1.1.4/doc/article/cheat-sheet/7) hooks and is called before the the view is displayed. The `data` variable will be available to us in the view so that we can render data to the screen.
+In the model we fetch data in the `activate` function and assign it to a variable `data`. The `activate` function is one of the [Screen Activation Lifecycle](http://aurelia.io/docs.html#/aurelia/framework/1.0.0-beta.1.1.4/doc/article/cheat-sheet/7) hooks and is called before the view is displayed. The `data` variable will be available to us in the view so that we can render data to the screen.
 
 ```js
 
