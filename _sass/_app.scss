@@ -131,7 +131,8 @@ figure {
 
 iframe {
     margin: 1rem 0;
+    padding: 8px;
     width: 100%;
     min-height: 600px;
-    border: 0;
+    border: 1px solid $light-gray;
 }
