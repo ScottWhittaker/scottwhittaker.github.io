@@ -74,7 +74,7 @@ export class RatingDialog {
 
 **rating-dialog.html**
 
-Notice how the buttons are configured to call `cancel` and `ok` methods on the `controller` when actioned. Also note how `controller.ok(rating)` accepts the `rating` value. This provides the ability to pass data back to the the view model that invoked the dialog.
+Notice how the buttons are configured to call `cancel` and `ok` methods on the `controller` when actioned. Also note how `controller.ok(rating)` accepts the `rating` value. This provides the ability to pass data back to the view model that invoked the dialog.
 
 ```html
 
@@ -162,4 +162,3 @@ The view displays the current rating. When the button is invoked it calls the `r
 The `DialogController` and `DialogService` are easy to use and barely make an appearance in code. This seems to be typical of the Aurelia approach, things stay out of your way - testament to great design.
 
 Given that the `DialogService` is just a 'wrapper' around a view and view-model pair then all manner of dialogs can easily be conceived. More investigation required.
-
