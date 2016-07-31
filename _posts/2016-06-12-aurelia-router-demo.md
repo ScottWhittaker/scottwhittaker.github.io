@@ -7,7 +7,7 @@ categories: aurelia
 
 A demonstration of basic [routing](http://aurelia.io/docs.html#/aurelia/framework/1.0.0-beta.1.2.4/doc/article/cheat-sheet/7) with [Aurelia](http://aurelia.io/). Select the _**Profile**_ menu item on the navigation bar in the demo to see three levels of navigation that we will be creating with the [aurelia-router](https://github.com/aurelia/router).
 
-<iframe src="https://gist.run/embed.html?id=92825f79a9156cd55194b2ba7c8c42df"></iframe>
+<iframe class="iframe" src="https://gist.run/embed.html?id=92825f79a9156cd55194b2ba7c8c42df"></iframe>
 
 ## Route Configuration
 

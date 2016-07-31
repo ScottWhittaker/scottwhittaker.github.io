@@ -9,4 +9,4 @@ I was curious as to how to create a multi-step form within a dialog with [Aureli
 
 In a nutshell, `multi-step-view` is a custom element that provides the ability to move back and forth between any number of views, each view can be validated before moving on to the next and you can cancel out at any point. Take a look at the demo...
 
-<iframe src="https://gist.run/embed.html?id=c4b5282d6f43a7254d0a2eba9c1fa259" style="min-height: 800px;"></iframe>
+<iframe class="iframe" src="https://gist.run/embed.html?id=c4b5282d6f43a7254d0a2eba9c1fa259" style="min-height: 800px;"></iframe>
